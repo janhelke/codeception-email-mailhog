@@ -1,5 +1,5 @@
 {
-    "name": "ericmartel/codeception-email-mailhog",
+    "name": "janhelke/codeception-email-mailhog",
     "description": "Provides test helpers for Codeception when testing email functionality with MailHog",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "ericmartel/codeception-email": "^1.0",
-        "guzzlehttp/guzzle": "^6.1"
+        "guzzlehttp/guzzle": "^6 | ^7"
     },
     "autoload": {
         "psr-4": {
